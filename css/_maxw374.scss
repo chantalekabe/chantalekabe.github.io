@@ -1,0 +1,114 @@
+.about_us_img_part {
+  padding: 20px 20px;
+  margin-top: 80px;
+  width: 80%;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 30px 1px rgba(0,0,0,0.02);
+}
+
+.about_us_img_part_img_1 {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.about_us_img_part_text_1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px auto 10px;
+  text-align: center;
+}
+
+.contact_us_2 {
+  padding: 30px;
+  margin-top: 70px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.02);
+}
+
+.contact_us_1 {
+  padding: 30px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.02);
+}
+
+.part_2_conference {
+  padding: 0 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.part_1_conference {
+  padding: 0 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 8px;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 40px;
+  transition: 0.6s ease background-color;
+  background-color: #eeeeec;
+  font-weight: 400;
+}
+
+.form__block {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 30px 2px rgba(0,0,0,0.05);
+}
+
+.form_text_1 {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+#status {
+  margin-top: 30px;
+  width: 80%;
+  text-align: center;
+}
