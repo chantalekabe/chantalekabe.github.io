@@ -1,0 +1,50 @@
+.welcome {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Merriweather', sans-serif;
+  background-image: url("../../img/part4.png");
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-color: rgba(244, 241, 222, 0.5);
+}
+
+.all_welcome {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.all_welcome_1 {
+  width: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+}
+
+.all_welcome_1_text_1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.all_welcome_1_text_2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.all_welcome_2 {
+  margin: 40px auto 0;
+  width: 50%;
+  display: flex;
+}
+
+.all_welcome_1_img_1 {
+  max-width: 100%;
+  height: auto;
+}

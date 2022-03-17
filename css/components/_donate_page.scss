@@ -1,0 +1,124 @@
+.donate {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Merriweather', sans-serif;
+  background-image: url("../../img/part4.png");
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-color: rgba(244, 241, 222, 0.5);
+}
+
+.donate_text_1 {
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.all_donate {
+  margin: 0 auto;
+  padding: 80px 0 85px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.part_of_donation_page {
+  padding: 50px 70px;
+  width: 47%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.02);
+}
+
+.part_of_donation_page_text_1 {
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.part_of_donation_page_text_2,
+.part_of_donation_page_text_3 {
+  text-align: center;
+  margin-top: 30px;
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.part_of_donation_page_2 {
+  padding: 50px 70px;
+  width: 47%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.02);
+  background-image: url("../../img/respect_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.part_of_donation_page_2_text_1 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 28px;
+}
+
+.part_of_donation_page_2_text_2 {
+  font-size: 14px;
+  padding: 12px 18px;
+  text-decoration: none;
+  color: #000;
+  background-color: #eeeeee;
+  border-radius: 7px;
+  transition: all 0.6s;
+  text-align: center;
+}
+
+.part_of_donation_page_2_text_2:hover {
+  background-color: #e7e7e7;
+}
+
+.all_donate_here_links {
+  flex-wrap: wrap;
+  margin-top: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link_donate_1 {
+  font-size: 16px;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #000;
+  background-color: rgb(234, 225, 225);
+  border-radius: 7px;
+  transition: all 0.6s;
+}
+
+.link_donate_1:hover {
+  background-color: rgb(228, 219, 219);
+}
+
+.all_donate_2 {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}

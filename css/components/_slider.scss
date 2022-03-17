@@ -1,0 +1,153 @@
+.slider_1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.slide-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-content11 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.slide-content__1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 15%;
+}
+
+.slide-content__2 {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide-content__2_3 {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.line_slide-content__2_3 {
+  width: 55px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.slide-content__2_3__text {
+  margin-left: 10px;
+  font-size: 22px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.blockquote__slider {
+  font-size: 18px;
+  line-height: 30px;
+  color: #636363;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+#slider {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+#slider input[type=radio] {
+  display: none;
+}
+
+#slider label {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#slides {
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+}
+
+#overflow {
+  width: 100%;
+  overflow: hidden;
+}
+
+#slide1:checked ~ #slides .inner {
+  margin-left: 0;
+}
+
+#slide2:checked ~ #slides .inner {
+  margin-left: -100%;
+}
+
+#slide3:checked ~ #slides .inner {
+  margin-left: -200%;
+}
+
+#slides .inner {
+  transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  width: 400%;
+  line-height: 0;
+  text-align: left;
+}
+
+#slides .slide {
+  width: 25%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+
+.slide_1,
+.slide_2,
+.slide_3 {
+  background: #ffffff;
+}
+
+#bullets {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#bullets label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #ccc;
+  margin: 0 10px;
+}
+
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3) {
+  background: #444;
+}
+
+#slide2:active {
+  background: #444;
+}

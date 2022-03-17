@@ -1,0 +1,42 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.main_text_1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.all_main {
+  margin: 65px auto 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main_text_2 {
+  margin-top: 24px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.main_text_3 {
+  margin-top: 40px;
+  font-size: 20px;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #000;
+  background-color: #eeeeee;
+  border-radius: 7px;
+  transition: all 0.6s;
+}
+
+.main_text_3:hover {
+  background-color: #eae9e9;
+}
